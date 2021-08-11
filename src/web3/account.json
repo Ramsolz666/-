@@ -1,0 +1,38 @@
+[
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_seller",
+				"type": "string"
+			},
+			{
+				"name": "_community",
+				"type": "string"
+			}
+		],
+		"name": "changeinfo",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "getinfo",
+		"outputs": [
+			{
+				"name": "",
+				"type": "string"
+			},
+			{
+				"name": "",
+				"type": "string"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
