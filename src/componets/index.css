@@ -1,0 +1,31 @@
+@import '~antd/dist/antd.css';
+
+
+.register{
+    position: absolute;
+    width: 500px;
+    height: 250px;
+    top: 40%;
+    left: 46%;
+    text-align: end;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    /* background-color:gray; */
+}
+.Onload{
+    position: absolute;
+    width: 500px;
+    height: 250px;
+    top: 55%;
+    left: 46%;
+    text-align: end;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    /* background-color:gray; */
+}

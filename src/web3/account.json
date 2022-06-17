@@ -1,0 +1,270 @@
+[
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "id_",
+				"type": "int32"
+			}
+		],
+		"name": "get",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "id_",
+				"type": "int32"
+			},
+			{
+				"name": "T",
+				"type": "int32[17]"
+			}
+		],
+		"name": "uploadInfo",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "getStructArray",
+		"outputs": [
+			{
+				"components": [
+					{
+						"name": "id",
+						"type": "int32"
+					},
+					{
+						"name": "tax_level",
+						"type": "int32"
+					},
+					{
+						"name": "income_rate",
+						"type": "int32"
+					},
+					{
+						"name": "debat_rate",
+						"type": "int32"
+					},
+					{
+						"name": "raw_income_rate",
+						"type": "int32"
+					},
+					{
+						"name": "percent_rate",
+						"type": "int32"
+					},
+					{
+						"name": "income_up_rate",
+						"type": "int32"
+					},
+					{
+						"name": "total_rate",
+						"type": "int32"
+					},
+					{
+						"name": "last_rate",
+						"type": "int32"
+					}
+				],
+				"name": "",
+				"type": "tuple[]"
+			},
+			{
+				"components": [
+					{
+						"name": "id",
+						"type": "int32"
+					},
+					{
+						"name": "area_policy",
+						"type": "int32"
+					},
+					{
+						"name": "employee_num",
+						"type": "int32"
+					},
+					{
+						"name": "graduated_num",
+						"type": "int32"
+					},
+					{
+						"name": "boss_num",
+						"type": "int32"
+					},
+					{
+						"name": "area_gdp",
+						"type": "int32"
+					},
+					{
+						"name": "indu_gdp",
+						"type": "int32"
+					},
+					{
+						"name": "exceptions",
+						"type": "int32"
+					},
+					{
+						"name": "country_policy",
+						"type": "int32"
+					}
+				],
+				"name": "",
+				"type": "tuple[]"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "year",
+				"type": "int32"
+			},
+			{
+				"name": "id",
+				"type": "string"
+			}
+		],
+		"name": "rank",
+		"outputs": [
+			{
+				"name": "",
+				"type": "string"
+			},
+			{
+				"name": "",
+				"type": "int32"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "",
+				"type": "int32"
+			},
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "userGroup1",
+		"outputs": [
+			{
+				"name": "id",
+				"type": "int32"
+			},
+			{
+				"name": "tax_level",
+				"type": "int32"
+			},
+			{
+				"name": "income_rate",
+				"type": "int32"
+			},
+			{
+				"name": "debat_rate",
+				"type": "int32"
+			},
+			{
+				"name": "raw_income_rate",
+				"type": "int32"
+			},
+			{
+				"name": "percent_rate",
+				"type": "int32"
+			},
+			{
+				"name": "income_up_rate",
+				"type": "int32"
+			},
+			{
+				"name": "total_rate",
+				"type": "int32"
+			},
+			{
+				"name": "last_rate",
+				"type": "int32"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "",
+				"type": "int32"
+			},
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "userGroup2",
+		"outputs": [
+			{
+				"name": "id",
+				"type": "int32"
+			},
+			{
+				"name": "area_policy",
+				"type": "int32"
+			},
+			{
+				"name": "employee_num",
+				"type": "int32"
+			},
+			{
+				"name": "graduated_num",
+				"type": "int32"
+			},
+			{
+				"name": "boss_num",
+				"type": "int32"
+			},
+			{
+				"name": "area_gdp",
+				"type": "int32"
+			},
+			{
+				"name": "indu_gdp",
+				"type": "int32"
+			},
+			{
+				"name": "exceptions",
+				"type": "int32"
+			},
+			{
+				"name": "country_policy",
+				"type": "int32"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
